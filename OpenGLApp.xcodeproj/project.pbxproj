@@ -7,9 +7,91 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D0A1A1118A064B400E0A2C5 /* libGLEW.1.10.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D0A1A1018A064B400E0A2C5 /* libGLEW.1.10.0.dylib */; };
+		4D0A1A1318A073E000E0A2C5 /* libassimp.3.0.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D0A1A1218A073E000E0A2C5 /* libassimp.3.0.1.dylib */; };
+		4D0A1A1618A0761000E0A2C5 /* stb_image.c in Sources */ = {isa = PBXBuildFile; fileRef = 4D0A1A1518A0761000E0A2C5 /* stb_image.c */; };
 		4D2A1526189AE90C009D6D73 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D2A1525189AE90C009D6D73 /* main.cpp */; };
 		4D2A1528189AE90C009D6D73 /* OpenGLApp.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4D2A1527189AE90C009D6D73 /* OpenGLApp.1 */; };
+		4D2A152F189AE9E0009D6D73 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D2A152E189AE9E0009D6D73 /* OpenGL.framework */; };
+		4D582B6B189AEF3600C218BC /* libglfw3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D582B6A189AEF3600C218BC /* libglfw3.a */; };
+		4D582B6D189AEF4B00C218BC /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D582B6C189AEF4B00C218BC /* IOKit.framework */; };
+		4D582B6F189AEF5100C218BC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D582B6E189AEF5100C218BC /* Cocoa.framework */; };
+		4D582B71189AF15100C218BC /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D582B70189AF15100C218BC /* CoreVideo.framework */; };
+		4D582B7418A0592600C218BC /* maths_funcs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D582B7318A0592600C218BC /* maths_funcs.cpp */; };
+		4D8F4CE418B2B12D0076466D /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D8F4CE318B2B12D0076466D /* OpenAL.framework */; };
+		4D8F4CE618B2D1E20076466D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D8F4CE518B2D1E20076466D /* AudioToolbox.framework */; };
+		4D8F4CE818B2D3190076466D /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D8F4CE718B2D3190076466D /* CoreFoundation.framework */; };
+		4D93DF4D18D108F200F15BA5 /* libjdksmidi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D93DF3C18D106EC00F15BA5 /* libjdksmidi.a */; };
+		4D93DF5618E36A5C00F15BA5 /* MidiProcessor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D93DF5218E20F0B00F15BA5 /* MidiProcessor.cpp */; };
+		4D93DF5818FDDA3000F15BA5 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D93DF5718FDDA3000F15BA5 /* AudioUnit.framework */; };
+		4D93DF5A18FDDA4600F15BA5 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D93DF5918FDDA4600F15BA5 /* CoreServices.framework */; };
+		4D93DF5C18FDDA5800F15BA5 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D93DF5B18FDDA5800F15BA5 /* CoreAudio.framework */; };
+		4D93DF5E18FDDA6300F15BA5 /* CoreMIDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D93DF5D18FDDA6300F15BA5 /* CoreMIDI.framework */; };
+		4D93DF6D18FDDD8800F15BA5 /* AUOutputBL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D93DF6018FDDD8800F15BA5 /* AUOutputBL.cpp */; };
+		4D93DF6E18FDDD8800F15BA5 /* CAAudioFileFormats.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D93DF6218FDDD8800F15BA5 /* CAAudioFileFormats.cpp */; };
+		4D93DF6F18FDDD8800F15BA5 /* CAFilePathUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D93DF6618FDDD8800F15BA5 /* CAFilePathUtils.cpp */; };
+		4D93DF7018FDDD8800F15BA5 /* CAHostTimeBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D93DF6818FDDD8800F15BA5 /* CAHostTimeBase.cpp */; };
+		4D93DF7118FDDD8800F15BA5 /* CAStreamBasicDescription.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D93DF6B18FDDD8800F15BA5 /* CAStreamBasicDescription.cpp */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D93DF3B18D106EC00F15BA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D93DF3118D106EC00F15BA5 /* jdksmidi.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BFCF4617066341C8004F42F4;
+			remoteInfo = jdksmidi;
+		};
+		4D93DF3D18D106EC00F15BA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D93DF3118D106EC00F15BA5 /* jdksmidi.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BFCF465B0663423E004F42F4;
+			remoteInfo = jdksmidi_rewrite_midifile;
+		};
+		4D93DF3F18D106EC00F15BA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D93DF3118D106EC00F15BA5 /* jdksmidi.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BF2E0C8A06646D3F0055CCAF;
+			remoteInfo = libjdk_test_show;
+		};
+		4D93DF4118D106EC00F15BA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D93DF3118D106EC00F15BA5 /* jdksmidi.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BFAD140A0AB5ED7600CD5BE0;
+			remoteInfo = libjdksmidi_test_parse;
+		};
+		4D93DF4318D106EC00F15BA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D93DF3118D106EC00F15BA5 /* jdksmidi.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BFAD140C0AB5ED7600CD5BE0;
+			remoteInfo = libjdksmidi_test_sequencer;
+		};
+		4D93DF4518D106EC00F15BA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D93DF3118D106EC00F15BA5 /* jdksmidi.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BFAD14080AB5ED7600CD5BE0;
+			remoteInfo = libjdksmidi_test_multitrack1;
+		};
+		4D93DF4E18D10BF500F15BA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D93DF3118D106EC00F15BA5 /* jdksmidi.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = BF78EEF1066470240084AE2F;
+			remoteInfo = All;
+		};
+		4D93DF5018D10BFB00F15BA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D93DF3118D106EC00F15BA5 /* jdksmidi.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = BFCF4616066341C8004F42F4;
+			remoteInfo = jdksmidi;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		4D2A1520189AE90C009D6D73 /* CopyFiles */ = {
@@ -25,9 +107,45 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4D0A1A1018A064B400E0A2C5 /* libGLEW.1.10.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libGLEW.1.10.0.dylib; path = ../../../../../usr/local/Cellar/glew/1.10.0/lib/libGLEW.1.10.0.dylib; sourceTree = "<group>"; };
+		4D0A1A1218A073E000E0A2C5 /* libassimp.3.0.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libassimp.3.0.1.dylib; path = ../../../../../usr/local/lib/libassimp.3.0.1.dylib; sourceTree = "<group>"; };
+		4D0A1A1418A0760200E0A2C5 /* stb_image.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stb_image.h; sourceTree = "<group>"; };
+		4D0A1A1518A0761000E0A2C5 /* stb_image.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = stb_image.c; sourceTree = "<group>"; };
 		4D2A1522189AE90C009D6D73 /* OpenGLApp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OpenGLApp; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D2A1525189AE90C009D6D73 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		4D2A1527189AE90C009D6D73 /* OpenGLApp.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = OpenGLApp.1; sourceTree = "<group>"; };
+		4D2A152E189AE9E0009D6D73 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		4D582B6A189AEF3600C218BC /* libglfw3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libglfw3.a; path = ../../../../../usr/local/lib/libglfw3.a; sourceTree = "<group>"; };
+		4D582B6C189AEF4B00C218BC /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		4D582B6E189AEF5100C218BC /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		4D582B70189AF15100C218BC /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		4D582B7218A0590500C218BC /* maths_funcs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = maths_funcs.h; sourceTree = "<group>"; };
+		4D582B7318A0592600C218BC /* maths_funcs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = maths_funcs.cpp; sourceTree = "<group>"; };
+		4D582B7618A05C5800C218BC /* simpleVertexShader.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = simpleVertexShader.txt; sourceTree = "<group>"; };
+		4D582B7718A05C6400C218BC /* simpleFragmentShader.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = simpleFragmentShader.txt; sourceTree = "<group>"; };
+		4D8F4CE318B2B12D0076466D /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		4D8F4CE518B2D1E20076466D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		4D8F4CE718B2D3190076466D /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		4D93DF3118D106EC00F15BA5 /* jdksmidi.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = jdksmidi.xcodeproj; path = ../../Libs/jdksmidi/build/macosx/jdksmidi.xcodeproj; sourceTree = "<group>"; };
+		4D93DF5218E20F0B00F15BA5 /* MidiProcessor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MidiProcessor.cpp; sourceTree = "<group>"; };
+		4D93DF5318E20F0B00F15BA5 /* MidiProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MidiProcessor.h; sourceTree = "<group>"; };
+		4D93DF5718FDDA3000F15BA5 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		4D93DF5918FDDA4600F15BA5 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		4D93DF5B18FDDA5800F15BA5 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		4D93DF5D18FDDA6300F15BA5 /* CoreMIDI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMIDI.framework; path = System/Library/Frameworks/CoreMIDI.framework; sourceTree = SDKROOT; };
+		4D93DF6018FDDD8800F15BA5 /* AUOutputBL.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AUOutputBL.cpp; sourceTree = "<group>"; };
+		4D93DF6118FDDD8800F15BA5 /* AUOutputBL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AUOutputBL.h; sourceTree = "<group>"; };
+		4D93DF6218FDDD8800F15BA5 /* CAAudioFileFormats.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CAAudioFileFormats.cpp; sourceTree = "<group>"; };
+		4D93DF6318FDDD8800F15BA5 /* CAAudioFileFormats.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAAudioFileFormats.h; sourceTree = "<group>"; };
+		4D93DF6418FDDD8800F15BA5 /* CADebugMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CADebugMacros.h; sourceTree = "<group>"; };
+		4D93DF6518FDDD8800F15BA5 /* CADebugPrintf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CADebugPrintf.h; sourceTree = "<group>"; };
+		4D93DF6618FDDD8800F15BA5 /* CAFilePathUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CAFilePathUtils.cpp; sourceTree = "<group>"; };
+		4D93DF6718FDDD8800F15BA5 /* CAFilePathUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAFilePathUtils.h; sourceTree = "<group>"; };
+		4D93DF6818FDDD8800F15BA5 /* CAHostTimeBase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CAHostTimeBase.cpp; sourceTree = "<group>"; };
+		4D93DF6918FDDD8800F15BA5 /* CAHostTimeBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAHostTimeBase.h; sourceTree = "<group>"; };
+		4D93DF6A18FDDD8800F15BA5 /* CAMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAMath.h; sourceTree = "<group>"; };
+		4D93DF6B18FDDD8800F15BA5 /* CAStreamBasicDescription.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CAStreamBasicDescription.cpp; sourceTree = "<group>"; };
+		4D93DF6C18FDDD8800F15BA5 /* CAStreamBasicDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAStreamBasicDescription.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +153,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D93DF5E18FDDA6300F15BA5 /* CoreMIDI.framework in Frameworks */,
+				4D93DF5C18FDDA5800F15BA5 /* CoreAudio.framework in Frameworks */,
+				4D93DF5A18FDDA4600F15BA5 /* CoreServices.framework in Frameworks */,
+				4D93DF5818FDDA3000F15BA5 /* AudioUnit.framework in Frameworks */,
+				4D93DF4D18D108F200F15BA5 /* libjdksmidi.a in Frameworks */,
+				4D8F4CE818B2D3190076466D /* CoreFoundation.framework in Frameworks */,
+				4D8F4CE618B2D1E20076466D /* AudioToolbox.framework in Frameworks */,
+				4D8F4CE418B2B12D0076466D /* OpenAL.framework in Frameworks */,
+				4D0A1A1318A073E000E0A2C5 /* libassimp.3.0.1.dylib in Frameworks */,
+				4D0A1A1118A064B400E0A2C5 /* libGLEW.1.10.0.dylib in Frameworks */,
+				4D582B71189AF15100C218BC /* CoreVideo.framework in Frameworks */,
+				4D582B6F189AEF5100C218BC /* Cocoa.framework in Frameworks */,
+				4D582B6D189AEF4B00C218BC /* IOKit.framework in Frameworks */,
+				4D582B6B189AEF3600C218BC /* libglfw3.a in Frameworks */,
+				4D2A152F189AE9E0009D6D73 /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +177,22 @@
 		4D2A1519189AE90C009D6D73 = {
 			isa = PBXGroup;
 			children = (
+				4D93DF5F18FDDD8800F15BA5 /* PublicUtility */,
+				4D93DF5D18FDDA6300F15BA5 /* CoreMIDI.framework */,
+				4D93DF5B18FDDA5800F15BA5 /* CoreAudio.framework */,
+				4D93DF5918FDDA4600F15BA5 /* CoreServices.framework */,
+				4D93DF5718FDDA3000F15BA5 /* AudioUnit.framework */,
+				4D93DF3118D106EC00F15BA5 /* jdksmidi.xcodeproj */,
+				4D8F4CE718B2D3190076466D /* CoreFoundation.framework */,
+				4D8F4CE518B2D1E20076466D /* AudioToolbox.framework */,
+				4D8F4CE318B2B12D0076466D /* OpenAL.framework */,
+				4D0A1A1218A073E000E0A2C5 /* libassimp.3.0.1.dylib */,
+				4D0A1A1018A064B400E0A2C5 /* libGLEW.1.10.0.dylib */,
+				4D582B70189AF15100C218BC /* CoreVideo.framework */,
+				4D582B6E189AEF5100C218BC /* Cocoa.framework */,
+				4D582B6C189AEF4B00C218BC /* IOKit.framework */,
+				4D582B6A189AEF3600C218BC /* libglfw3.a */,
+				4D2A152E189AE9E0009D6D73 /* OpenGL.framework */,
 				4D2A1524189AE90C009D6D73 /* OpenGLApp */,
 				4D2A1523189AE90C009D6D73 /* Products */,
 			);
@@ -60,10 +209,60 @@
 		4D2A1524189AE90C009D6D73 /* OpenGLApp */ = {
 			isa = PBXGroup;
 			children = (
+				4D582B7518A05C3F00C218BC /* Shaders */,
 				4D2A1525189AE90C009D6D73 /* main.cpp */,
 				4D2A1527189AE90C009D6D73 /* OpenGLApp.1 */,
+				4D582B7218A0590500C218BC /* maths_funcs.h */,
+				4D582B7318A0592600C218BC /* maths_funcs.cpp */,
+				4D0A1A1418A0760200E0A2C5 /* stb_image.h */,
+				4D0A1A1518A0761000E0A2C5 /* stb_image.c */,
+				4D93DF5218E20F0B00F15BA5 /* MidiProcessor.cpp */,
+				4D93DF5318E20F0B00F15BA5 /* MidiProcessor.h */,
 			);
 			path = OpenGLApp;
+			sourceTree = "<group>";
+		};
+		4D582B7518A05C3F00C218BC /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				4D582B7618A05C5800C218BC /* simpleVertexShader.txt */,
+				4D582B7718A05C6400C218BC /* simpleFragmentShader.txt */,
+			);
+			name = Shaders;
+			sourceTree = "<group>";
+		};
+		4D93DF3218D106EC00F15BA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D93DF3C18D106EC00F15BA5 /* libjdksmidi.a */,
+				4D93DF3E18D106EC00F15BA5 /* jdksmidi_rewrite_midifile */,
+				4D93DF4018D106EC00F15BA5 /* libjdk_test_show */,
+				4D93DF4218D106EC00F15BA5 /* libjdksmidi_test_parse */,
+				4D93DF4418D106EC00F15BA5 /* libjdksmidi_test_parse */,
+				4D93DF4618D106EC00F15BA5 /* libjdksmidi_test_parse */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D93DF5F18FDDD8800F15BA5 /* PublicUtility */ = {
+			isa = PBXGroup;
+			children = (
+				4D93DF6018FDDD8800F15BA5 /* AUOutputBL.cpp */,
+				4D93DF6118FDDD8800F15BA5 /* AUOutputBL.h */,
+				4D93DF6218FDDD8800F15BA5 /* CAAudioFileFormats.cpp */,
+				4D93DF6318FDDD8800F15BA5 /* CAAudioFileFormats.h */,
+				4D93DF6418FDDD8800F15BA5 /* CADebugMacros.h */,
+				4D93DF6518FDDD8800F15BA5 /* CADebugPrintf.h */,
+				4D93DF6618FDDD8800F15BA5 /* CAFilePathUtils.cpp */,
+				4D93DF6718FDDD8800F15BA5 /* CAFilePathUtils.h */,
+				4D93DF6818FDDD8800F15BA5 /* CAHostTimeBase.cpp */,
+				4D93DF6918FDDD8800F15BA5 /* CAHostTimeBase.h */,
+				4D93DF6A18FDDD8800F15BA5 /* CAMath.h */,
+				4D93DF6B18FDDD8800F15BA5 /* CAStreamBasicDescription.cpp */,
+				4D93DF6C18FDDD8800F15BA5 /* CAStreamBasicDescription.h */,
+			);
+			name = PublicUtility;
+			path = OpenGLApp/PublicUtility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -80,6 +279,8 @@
 			buildRules = (
 			);
 			dependencies = (
+				4D93DF5118D10BFB00F15BA5 /* PBXTargetDependency */,
+				4D93DF4F18D10BF500F15BA5 /* PBXTargetDependency */,
 			);
 			name = OpenGLApp;
 			productName = OpenGLApp;
@@ -105,6 +306,12 @@
 			mainGroup = 4D2A1519189AE90C009D6D73;
 			productRefGroup = 4D2A1523189AE90C009D6D73 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 4D93DF3218D106EC00F15BA5 /* Products */;
+					ProjectRef = 4D93DF3118D106EC00F15BA5 /* jdksmidi.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				4D2A1521189AE90C009D6D73 /* OpenGLApp */,
@@ -112,16 +319,82 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		4D93DF3C18D106EC00F15BA5 /* libjdksmidi.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libjdksmidi.a;
+			remoteRef = 4D93DF3B18D106EC00F15BA5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4D93DF3E18D106EC00F15BA5 /* jdksmidi_rewrite_midifile */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = jdksmidi_rewrite_midifile;
+			remoteRef = 4D93DF3D18D106EC00F15BA5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4D93DF4018D106EC00F15BA5 /* libjdk_test_show */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = libjdk_test_show;
+			remoteRef = 4D93DF3F18D106EC00F15BA5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4D93DF4218D106EC00F15BA5 /* libjdksmidi_test_parse */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = libjdksmidi_test_parse;
+			remoteRef = 4D93DF4118D106EC00F15BA5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4D93DF4418D106EC00F15BA5 /* libjdksmidi_test_parse */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = libjdksmidi_test_parse;
+			remoteRef = 4D93DF4318D106EC00F15BA5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4D93DF4618D106EC00F15BA5 /* libjdksmidi_test_parse */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = libjdksmidi_test_parse;
+			remoteRef = 4D93DF4518D106EC00F15BA5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4D2A151E189AE90C009D6D73 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D93DF5618E36A5C00F15BA5 /* MidiProcessor.cpp in Sources */,
 				4D2A1526189AE90C009D6D73 /* main.cpp in Sources */,
+				4D93DF7118FDDD8800F15BA5 /* CAStreamBasicDescription.cpp in Sources */,
+				4D93DF6D18FDDD8800F15BA5 /* AUOutputBL.cpp in Sources */,
+				4D582B7418A0592600C218BC /* maths_funcs.cpp in Sources */,
+				4D0A1A1618A0761000E0A2C5 /* stb_image.c in Sources */,
+				4D93DF6E18FDDD8800F15BA5 /* CAAudioFileFormats.cpp in Sources */,
+				4D93DF6F18FDDD8800F15BA5 /* CAFilePathUtils.cpp in Sources */,
+				4D93DF7018FDDD8800F15BA5 /* CAHostTimeBase.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D93DF4F18D10BF500F15BA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = All;
+			targetProxy = 4D93DF4E18D10BF500F15BA5 /* PBXContainerItemProxy */;
+		};
+		4D93DF5118D10BFB00F15BA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = jdksmidi;
+			targetProxy = 4D93DF5018D10BFB00F15BA5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		4D2A1529189AE90C009D6D73 /* Debug */ = {
@@ -195,6 +468,16 @@
 		4D2A152C189AE90C009D6D73 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/local/include,
+					/Users/evaleonard/Documents/Libs/jdksmidi/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib,
+					/usr/local/Cellar/glew/1.10.0/lib,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -202,6 +485,16 @@
 		4D2A152D189AE90C009D6D73 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/local/include,
+					/Users/evaleonard/Documents/Libs/jdksmidi/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib,
+					/usr/local/Cellar/glew/1.10.0/lib,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -216,7 +509,7 @@
 				4D2A152A189AE90C009D6D73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		4D2A152B189AE90C009D6D73 /* Build configuration list for PBXNativeTarget "OpenGLApp" */ = {
 			isa = XCConfigurationList;
@@ -225,6 +518,7 @@
 				4D2A152D189AE90C009D6D73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
